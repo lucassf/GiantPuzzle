@@ -1,0 +1,55 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dll
+*.pyd
+*.dylib
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Visual Studio Extensions
+*.vcxproj.user
+*.tlog
+*.pdb
+*.sdf
+*.suo
+*.db
+*.exp
+*.iobj
+*.ipdb
+*.exp
+*.iobj
+
+# Others
+**/Debug/**
+**/Release/**
+packages/*
+Boost/*
+.vs/*
+*.log
+*.txt
