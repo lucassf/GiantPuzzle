@@ -11,7 +11,7 @@ Board::Board(){}
 
 Board::Board(const std::string& filename) {
 	board = readCsvData(filename);
-	NCOLS = board[0].size(), NROWS = board.size();
+	NCOLS = (int) board[0].size(), NROWS = (int) board.size();
 	positions.resize(NCOLS * NROWS);
 	for (int i = 0; i < NROWS; ++i)
 		for (int j = 0; j < NCOLS; ++j)

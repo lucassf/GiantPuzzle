@@ -121,7 +121,7 @@ void validate() {
 	Board boardA("resources/A.csv");
 	Board boardB("resources/B.csv");
 
-	std::fstream file("B.txt", std::ios::in);
+	std::fstream file("commands.csv", std::ios::in);
 
 	std::string commands;
 	if (file.is_open())
