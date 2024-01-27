@@ -50,6 +50,6 @@
 **/Release/**
 packages/*
 Boost/*
-.vs/*
+**/.vs/*
 *.log
 *.txt
